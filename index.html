@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,14 +12,17 @@
         <h1>Jaša Pavčič</h1>
         <nav>
             <a href="#about">About</a>
-            <a href="#projects">Career</a>
-            <a href="#contact">Projects</a>
-            <a href="#contact">Music</a>
+            <a href="#projects">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#language">Language</a>
+            <a href="#music">Music</a>
             <a href="#contact">Contact</a>
-            <select id="language-selector">
+            <!-- <select id="language-selector">
                 <option value="en">English</option>
                 <option value="es">Slovenian</option>
-            </select>
+            </select> -->
         </nav>
     </header>
 
@@ -38,44 +42,105 @@
             </div>
         </section>
 
-        <section id="Career" class="section">
-            <h2>Career</h2>
+        <section id="education" class="section">
+            <h2>Education</h2>
             <div class="projects">
                 <div class="project">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>Brief description of your project and its features. Explain what makes this project special.</p>
+                    <img src="slike/Ilich-Logo.jpeg" alt="Project 1">
+                    <h3>Elementary school</h3>
+                    <p><a href="https://www.osbi.si/">Osnovna šola Bojana Ilicha</a><br>Maribor (2006-2012)</p>
                 </div>
                 <div class="project">
-                    <img src="project2.jpg" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>Brief description of your project and its features. Explain what makes this project special.</p>
+                    <img src="slike/Voranc-Logo.png" alt="Project 1">
+                    <h3>Elementary school</h3>
+                    <p><a href="https://www.o-pvoranca.mb.edus.si/">Osnovna Šola Prežihovega Voranca</a><br>Maribor (2012-2015)</p>
                 </div>
                 <div class="project">
-                    <img src="project3.jpg" alt="Project 3">
-                    <h3>Project 3</h3>
-                    <p>Brief description of your project and its features. Explain what makes this project special.</p>
+                    <img src="slike/Prva-Logo.jpg" alt="Project 2">
+                    <h3>High school</h3>
+                    <p><a href="https://www.prva-gimnazija.si/">1.Gimnazija</a><br>Maribor (2015-2019)</p>
+                </div>
+                <div class="project">
+                    <img src="slike/fmf-Logo.png" alt="Project 3">
+                    <h3>Faculty</h3>
+                    <p><a href="https://www.fmf.uni-lj.si/sl/">Fakulteta za matematiko in fiziko</a><br>Finančna matematika<br>Ljubljana (2019-2024)</p>
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="slike/Patricks-Logo.jpeg" alt="Patricks">
+                    <h3>Patricks' pub</h3>
+                    <p>Food and cocktail server.<br>2017-2019</p>
+                    <p><a href="https://www.tripadvisor.com/Restaurant_Review-g274874-d941349-Reviews-Patrick_s_Pub-Maribor_Styria_Region.html">Link</a></p>
+                </div>
+                <div class="project">
+                    <img src="slike/mea-Logo.png" alt="Mea">
+                    <h3>Mea inženiring d.o.o.</h3>
+                    <p>Project manager</p>
+                    <p>october 2024 - january 2025</p>
+                    <p>Hired on a 3-month project to work on recognition of the firm</p>   
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="about">
+                <div>
+                    <h3 class="github">Programming languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Ocaml</li>
+                        <li>Matlab</li>
+                        <li>R</li>
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>SQL</li>
+                    </ul>
+                    <p class="github">I mostly learned them listening to following clases:<br> Introduction to programming, Programming 1, Programming 2, Programming with R,Numerical methods 1 and 2.<br>
+                        (faculty for Physics and Mathematics in Ljubljana)
+                    </p>
                 </div>
             </div>
         </section>
 
         <section id="projects" class="section">
             <h2>Projects</h2>
+            <p class="github">You can find these projects on <a href="https://github.com/JasaPavcic"> my Github page</a>!</p>
             <div class="projects">
                 <div class="project">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>Brief description of your project and its features. Explain what makes this project special.</p>
+                    <h3>BLackjack</h3>
+                    <p>In 2020 I made a very simple Blackjack game for a project on my faculty.This was my first game with multiplayer options.</p>
+                    <p><a href="https://github.com/JasaPavcic/Blackjack">Link</a></p>
                 </div>
                 <div class="project">
-                    <img src="project2.jpg" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>Brief description of your project and its features. Explain what makes this project special.</p>
+                    <h3>Capture GO game</h3>
+                    <p>In 2023, my friend and I created a Capture Go game, programming AI to let players compete against the computer. It was an exciting experience!</p>
+                    <p><a href="https://github.com/justinraisp/CaptureGo">Link</a></p>
                 </div>
-                <div class="project">
-                    <img src="project3.jpg" alt="Project 3">
-                    <h3>Project 3</h3>
-                    <p>Brief description of your project and its features. Explain what makes this project special.</p>
+                 <div class="project">
+                    <h3>GGI index research project</h3>
+                    <p>In 2024 my project partner and I researched the characteristics of a tree graph that has GGI index very low and very high.</p>
+                    <p><a href="https://github.com/JasaPavcic/FP-Graovac-Ghorbani-index">Link</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="language" class="section">
+            <h2>Languages</h2>
+            <div class="about">
+                <div>
+                    <ul>
+                        <li><img src="slike/slo.png" alt="1">Slovenian-(Native or bilingual proficiency)</li>
+                        <li><img src="slike/englishh.png" alt="1">English-(Professional working proficiency)</li>
+                        <li><img src="slike/Serbia.png" alt="1">Serbian-(Professional working proficiency)</li>
+                        <li><img src="slike/Bosnia.svg" alt="1">Bosnian-(Professional working proficiency)</li>
+                        <li><img src="slike/croatia.png" alt="1">Croatian-(Professional working proficiency)</li>
+                        <li><img src="slike/germany.png" alt="1">German-(Elementary proficieny)</li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -83,23 +148,23 @@
         <section id="Music" class="section">
             <h2>Music</h2>
             <div class="about">
-                <img src="profile.jpg" alt="Your Profile Picture">
                 <div>
-                    <p>Hello! I am [Your Name], a [Your Profession/Role] passionate about [Your Interests]. I specialize in [Your Skills] and enjoy working on projects that involve [Your Specialization].</p>
+                    <p class="github"><a href="https://www.youtube.com/@liburoaband6700">  Liburoa - Stories from the pavement </a> I played bass guitar on this project with my former band.</p>
+                    <p class="github"><a href="https://www.youtube.com/watch?v=I06CGVSqMQ0">Melting worlds</a>  On thise project I provided the instrumental to the animation</p>
                 </div>
             </div>
         </section>
 
         <section id="contact" class="section">
             <h2>Contact Me</h2>
-            <p>If you'd like to get in touch, feel free to reach out via email or connect with me on social media.</p>
-            <p>Email: <a href="mailto:your.email@example.com">jasa.pavcic15@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">www.linkedin.com/in/jasa-pavcic</a></p>
+            <p class="github">If you'd like to get in touch, feel free to reach out via email or connect with me on social media.</p>
+            <p class="github">Email: <a href="mailto:your.email@example.com">jasa.pavcic15@gmail.com</a></p>
+            <p class="github">LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">www.linkedin.com/in/jasa-pavcic</a></p>
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Jaša Pavčič. All rights reserved.</p>
     </footer>
     <!-- <script>
         // Translation data
