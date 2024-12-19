@@ -8,11 +8,17 @@
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
+        <h1>Jaša Pavčič</h1>
         <nav>
             <a href="#about">About</a>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Career</a>
+            <a href="#contact">Projects</a>
+            <a href="#contact">Music</a>
             <a href="#contact">Contact</a>
+            <select id="language-selector">
+                <option value="en">English</option>
+                <option value="es">Slovenian</option>
+            </select>
         </nav>
     </header>
 
@@ -20,9 +26,35 @@
         <section id="about" class="section">
             <h2>About Me</h2>
             <div class="about">
-                <img src="profile.jpg" alt="Your Profile Picture">
+                <img src="slike/jasa.jpg" alt="Your Profile Picture">
                 <div>
-                    <p>Hello! I am [Your Name], a [Your Profession/Role] passionate about [Your Interests]. I specialize in [Your Skills] and enjoy working on projects that involve [Your Specialization].</p>
+                    <p>I am an ambitious and enthusiastic individual with experience in a variety of fields such as sport, music, science, and financial maths.
+                        My passions range from being active in sports, to creativity in music, to exploring science topics. I am able to adapt quickly to new challenges,
+                        which I proved by learning currency trading in high school and later deciding to study financial mathematics.
+                        My analytical and critical thinking skills were further developed at the Faculty of Mathematics and Physics in Ljubljana, where I developed my knowledge of complex problem solving,
+                        finance and programming. I want to contribute my experience and knowledge to solving today's challenges in finance, data analysis and programming.
+                        I believe that with a creative mindset and a desire for new challenges, I can contribute meaningful ideas in any field of work.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Career" class="section">
+            <h2>Career</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Brief description of your project and its features. Explain what makes this project special.</p>
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Brief description of your project and its features. Explain what makes this project special.</p>
+                </div>
+                <div class="project">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Brief description of your project and its features. Explain what makes this project special.</p>
                 </div>
             </div>
         </section>
@@ -48,16 +80,77 @@
             </div>
         </section>
 
+        <section id="Music" class="section">
+            <h2>Music</h2>
+            <div class="about">
+                <img src="profile.jpg" alt="Your Profile Picture">
+                <div>
+                    <p>Hello! I am [Your Name], a [Your Profession/Role] passionate about [Your Interests]. I specialize in [Your Skills] and enjoy working on projects that involve [Your Specialization].</p>
+                </div>
+            </div>
+        </section>
+
         <section id="contact" class="section">
             <h2>Contact Me</h2>
             <p>If you'd like to get in touch, feel free to reach out via email or connect with me on social media.</p>
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+            <p>Email: <a href="mailto:your.email@example.com">jasa.pavcic15@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">www.linkedin.com/in/jasa-pavcic</a></p>
         </section>
     </div>
 
     <footer>
         <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
+    <!-- <script>
+        // Translation data
+        const translations = {
+            en: {
+                name: "Your Name",
+                navAbout: "About",
+                navProjects: "Projects",
+                navContact: "Contact",
+                aboutTitle: "About Me",
+                aboutContent: "Hello! I am Jaša, a financial mathematician.",
+                projectsTitle: "Projects",
+                projectsContent: "Here are some of my recent projects.",
+                contactTitle: "Contact Me",
+                contactContent: "Feel free to reach out to me!",
+            },
+            sl: {
+                name: "Tvoje ime",
+                navAbout: "O meni",
+                navProjects: "Projekti",
+                navContact: "Kontakt",
+                aboutTitle: "O meni",
+                aboutContent: "Zdravo! sem Jaša, finančni matematik",
+                projectsTitle: "Projekti",
+                projectsContent: "Tukaj so moji nedanji projekti",
+                contactTitle: "Kontaktiraj me",
+                contactContent: "Pokliči me brez zadržkov",
+            }   
+        };
+
+        // Function to update text based on language
+        const updateLanguage = (lang) => {
+            document.getElementById("name").textContent = translations[lang].name;
+            document.getElementById("nav-about").textContent = translations[lang].navAbout;
+            document.getElementById("nav-projects").textContent = translations[lang].navProjects;
+            document.getElementById("nav-contact").textContent = translations[lang].navContact;
+            document.getElementById("about-title").textContent = translations[lang].aboutTitle;
+            document.getElementById("about-content").textContent = translations[lang].aboutContent;
+            document.getElementById("projects-title").textContent = translations[lang].projectsTitle;
+            document.getElementById("projects-content").textContent = translations[lang].projectsContent;
+            document.getElementById("contact-title").textContent = translations[lang].contactTitle;
+            document.getElementById("contact-content").textContent = translations[lang].contactContent;
+        };
+
+        // Event listener for language selector
+        document.getElementById("language-selector").addEventListener("change", (event) => {
+            updateLanguage(event.target.value);
+        });
+
+        // Set default language
+        updateLanguage("en");
+    </script> -->
 </body>
 </html>
